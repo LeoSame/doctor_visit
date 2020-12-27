@@ -62,6 +62,7 @@ input {
   display: block;
 }
 .modal {
+  z-index: 1000;
   padding: 40px 40px 20px;
   min-width: 320px;
   max-width: 620px;
@@ -184,6 +185,12 @@ input {
   font-size: 30px;
 }
 .card {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   align-self: flex-start;
   position: relative;
   text-align: center;
